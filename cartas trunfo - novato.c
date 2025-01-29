@@ -30,7 +30,27 @@ printf("População: %f\n" , populacao);
 printf("Pib:%f\n" , pib);
 printf("Área: %f\n" , area);
 
+////////////////////
+  char nome2 [20];
+  float area2;
+  float populacao2;
+  double pib;
+  int pontos_turisticos2;
 
+  printt("Sua cidade: \n");
+  scanf("s" , &nome2);
+
+  printf("pontos turisticos: \n");
+  scanf("%d" , &pontos_turisticos2);
+
+  printf("População: \n");
+  scanf("%f" , &populacao2);
+
+  printf("o PIB: \n");
+  scanf("%f" , &pib);
+
+  printf("AreaKM: \n");
+  scanf("%f" , &area2);
 
 
 }
